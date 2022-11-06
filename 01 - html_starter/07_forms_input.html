@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Forms & Input</title>
+  </head>
+  <body>
+    <form action="./send.php">
+      <input type="text" name="name" value="" placeholder="Dan Ghearasimciuc" />
+
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="dan@dantastic.dev"
+      />
+
+      <!-- Number -->
+      <input type="number" name="number" id="" />
+      <!-- Text Area -->
+      <textarea rows="5" cols="20"></textarea>
+
+      <!-- Select -->
+      <select name="sex" id="sex">
+        <option value="maschio">Maschio</option>
+        <option value="femmina">Femmina</option>
+        <option value="other">Altro</option>
+      </select>
+
+      <!-- Date -->
+      <input type="date" />
+      <!-- Password -->
+      <input type="password" />
+      <!-- Radio -->
+      <input type="radio" name="subscription" value="free" />Free
+      <input type="radio" name="subscription" value="simple" />Simple
+      <input type="radio" name="subscription" value="delux" />Delux
+      <!-- CheckBox -->
+      <input type="checkbox" name="likes" value="bike" />Bike
+      <input type="checkbox" name="likes" value="car" />Car
+      <input type="checkbox" name="likes" value="boat" />Boat
+
+      <input type="submit" value="Send" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

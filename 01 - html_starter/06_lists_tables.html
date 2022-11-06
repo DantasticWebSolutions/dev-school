@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lists & Tables</title>
+    <style>
+      table {
+        width: 100%;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+    cmd + a = seleziona tutto 
+    shift + freccia = selezionare
+    shift + option + freccia(dx, sx) = selezionare blocco
+    shift + cmd + freccia(dx, sx) = selezionare intera riga
+
+    option + freccia(su, giù) = sposta riga
+    option + shift +  freccia(su, giù) = copia e incolla riga
+    
+    cmd + c = copia
+    cmd + v = incolla
+
+    cmd + f = cerca
+    cmd + f + option = cerca
+
+    cmd + z = Undo - vai indietro
+    cmd + z + shift = Redo - vai avanti
+
+    cmd + shift + / = Commenta    
+    -->
+
+    <!-- Unordered List -->
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <!-- Nested List -->
+    <ul>
+      <li>Item 1</li>
+      <li>
+        Item 2
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+        </ul>
+      </li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <!-- Tables -->
+    <table>
+      <!-- TESTA -->
+      <thead>
+        <!-- RIGA -->
+        <tr>
+          <!-- COLONNA H -> header column -->
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefono</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- COLONNA -->
+          <td>Dan</td>
+          <td>dan@gmail.com</td>
+          <td>3348464318</td>
+        </tr>
+        <tr>
+          <td>Anna</td>
+          <td>anna@gmail.com</td>
+          <td>2929929929</td>
+        </tr>
+        <tr>
+          <td>Eugi</td>
+          <td>eugi@gmail.com</td>
+          <td>9203441231</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
