@@ -1,0 +1,92 @@
+/* RESET CSS */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: relative;
+  text-transform: uppercase;
+  /* It has to be wide as the whole page and to be 90px tall */
+  /* Make it black with white text */
+
+  /* Make the text stick to the center (both vertically and horizontally) */
+}
+
+@media (max-width: 756px) {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    /* On mobile it has to be 70px */
+  }
+}
+
+/* MAIN */
+
+main {
+  /* Make the two divs aligned horizontally */
+  /* Set the min-height to be the whole space in the page minus 90px */
+}
+
+@media (max-width: 756px) {
+  main {
+    /* Make the two divs aligned vertically */
+    flex-direction: column;
+    margin-bottom: 120px;
+  }
+}
+
+/* LEFT */
+
+.left {
+  background-color: rgba(16, 16, 16, 0.24);
+  /* Set the width to be a quarter of the width of the page */
+  /* Make the items to be aligned in the center vertically  */
+  /* and to stick to the left (the text as well) */
+}
+@media (max-width: 756px) {
+  .left {
+    /* Make the div cover the whole page */
+    /* Make the items to be aligned to the center horizontally */
+  }
+}
+
+.left span {
+  /* Make the text bold */
+  /* Make the text underlined */
+}
+
+/* RIGHT */
+
+.right {
+  /* Set the width to be three quarter of the width of the page */
+  /* Make the items to be aligned in the center vertically  */
+  /* and to stick to the left */
+}
+
+.right p {
+  max-width: 500px;
+}
+
+.right p a {
+  /* Set the link inside the text inside the right class to be underlined */
+}
+
+.right .button-container {
+  /* Make the buttons align to horizontally */
+}
+.right .button {
+  /* The button must have a black border */
+  /* It must have a 50px height */
+  /* It must have a 100px width */
+  /* The text inside must be aligned in the center (both v and h) */
+}
