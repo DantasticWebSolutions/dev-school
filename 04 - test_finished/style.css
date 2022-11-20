@@ -45,7 +45,6 @@ main {
   main {
     flex-direction: column;
     margin-bottom: 120px;
-    /* height: calc(100vh - 70px); */
   }
 }
 
@@ -53,7 +52,6 @@ main {
 
 .left {
   width: 25%;
-  /* height: calc(100vh - 90px); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,12 +60,34 @@ main {
   text-align: left;
   padding-left: 30px;
 }
+
+.left .dropdown-contenitor {
+  height: 100px;
+  display: none;
+}
+/* .left .dropdown select {
+  width: 100px;
+  height: 50px;
+}
+.left .dropdown .option {
+  background-color: black;
+} */
+
 @media (max-width: 756px) {
   .left {
     width: 100%;
     align-items: center;
     text-align: center;
     padding-left: 0;
+  }
+  .left .dropdown-contenitor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left .list {
+    display: none;
   }
 }
 
@@ -101,7 +121,6 @@ main {
 .right .button {
   color: black;
   border: 2px solid black;
-  text-decoration: none;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -109,4 +128,12 @@ main {
   width: 100px;
   margin-top: 10px;
   margin-right: 10px;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  padding-left: 0;
 }

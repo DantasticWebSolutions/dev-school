@@ -55,7 +55,7 @@ main {
 }
 @media (max-width: 756px) {
   .left {
-    /* Make the div cover the whole page */
+    /* Make the div cover the whole page horizontally */
     /* Make the items to be aligned to the center horizontally */
   }
 }
