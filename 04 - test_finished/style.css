@@ -136,4 +136,24 @@ pre code {
   display: block;
   padding: 20px;
   padding-left: 0;
+  margin-left: 0;
+  color: black;
+}
+
+table {
+  border: 1px solid black;
+  max-width: 100%;
+}
+td {
+  text-align: left;
+}
+tr:nth-child(odd) {
+  background-color: #e7e9eb;
+}
+thead tr:nth-child(1) {
+  background-color: white;
+}
+table ul {
+  list-style: none;
+  padding: 10px;
 }

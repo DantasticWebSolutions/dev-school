@@ -75,7 +75,7 @@
         <!-- MOBILE ONLY -->
         <div class="dropdown-contenitor">
           <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <button onclick="myFunction()" class="dropbtn">HTML</button>
 
             <div id="myDropdown" class="dropdown-content">
               <a href="./index.html"> HTML </a>
@@ -99,6 +99,244 @@
           semanticallyand originally included cues for the appearance of the
           document.
         </p>
+
+        <section>
+          <h2>Meta Tags</h2>
+          <p>
+            The &lt;meta> tag defines metadata about an HTML document. Metadata
+            is data (information) about data. &lt;meta> tags always go inside
+            the &lt;head> element, and are typically used to specify character
+            set, page description, keywords, author of the document, and
+            viewport settings. Metadata will not be displayed on the page, but
+            is machine parsable. Metadata is used by browsers (how to display
+            content or reload page), search engines (keywords), and other web
+            services. There is a method to let web designers take control over
+            the viewport (the user's visible area of a web page), through the
+            &lt;meta> tag (See "Setting The Viewport" example below).
+          </p>
+
+          <pre>
+          <code>
+            &lt;meta name="description" content="This is my website description" />
+            &lt;meta name="keywords" content="web development, web design" />
+            &lt;title>Meta Tags&lt;/title>
+          </code>
+        </pre>
+
+          <table>
+            <thead>
+              <tr>
+                <th><u> Attribute </u></th>
+                <th>Value</th>
+                <th>Descriprition</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><u> charset </u></td>
+                <td>UTF-8</td>
+                <td>Specifies the character encoding for the HTML document</td>
+              </tr>
+              <tr>
+                <td><u> content </u></td>
+                <td>text</td>
+                <td>
+                  Specifies the value associated with the http-equiv or the name
+                  attribute
+                </td>
+              </tr>
+              <tr>
+                <td><u>name</u></td>
+                <td>
+                  <ul>
+                    <li>application-name</li>
+                    <li>author</li>
+                    <li>description</li>
+                    <li>generator</li>
+                    <li>keywords</li>
+                    <li>viewport</li>
+                  </ul>
+                </td>
+                <td>Secifies a name for the metadata</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <h2>Typography</h2>
+          <h3>Headings</h3>
+          <p>
+            HTML headings are titles or subtitles that you want to display on a
+            webpage
+          </p>
+          <ul>
+            <li>Are defined with the &lt;h1> to &lt;h6> tags</li>
+            <li>
+              &lt;h1> defines the most important heading. &lt;h6> defines the
+              least important heading
+            </li>
+            <li>
+              Browser automatically add some white space (a margin) before and
+              after a heading.
+            </li>
+            <li>
+              Search engines use the headings to index the structure and content
+              of your web pages.
+            </li>
+            <li>
+              Use HTML headings for headings only. Don't use headings to make
+              text BIG or bold.
+            </li>
+          </ul>
+          <pre>
+          <code>
+      &lt;h1>Heading 1&lt;/h1>
+      &lt;h2>Heading 2&lt;/h2>
+      &lt;h3>Heading 3&lt;/h3>
+          </code>
+        </pre>
+          <h3>Paragraphs</h3>
+          <h4>&lt;p></h4>
+          <p>
+            Defines a paragraph that always starts on a new linw, and browsers
+            automatically add some white space (a margin) before and after a
+            paragraph. <br />
+            <br />
+            With HTML, you cannot change the display by adding extra spaces or
+            extra lines in your HTML code.
+          </p>
+
+          <pre>
+            <code>
+      &lt;p>This is a paragraph&lt;/p>
+      &lt;p>This is another paragraph&lt;/p>
+            </code>
+          </pre>
+          <h4>&lt;hr /></h4>
+          <p>
+            The &lt;hr> tag defines a thematic break in an HTML page, and is
+            most often displayed as a horizontal rule.
+            <br /><br />
+            The &lt;hr> element is used to separate content (or define a change)
+            in an HTML page:
+          </p>
+          <pre>
+            <code>
+        &lt;h1>This is heading 1&lt;/h1>
+        &lt;p>This is some text.&lt;/p>
+        <b>
+          &lt;hr>
+        </b>
+        &lt;h2>This is heading 2&lt;/h2>
+        &lt;p>This is some other text.&lt;/p>
+        &lt;hr>
+            </code>
+          </pre>
+          <h4>&lt;br /></h4>
+          <p>
+            The HTML &lt;br /> element defines a line break. <br /><br />
+            Use &lt;br /> if you want a line break (a new line) without starting
+            a new paragraph:
+          </p>
+          <pre>
+            <code>
+      &lt;p>This is&lt;br>a paragraph&lt;br>with line breaks.&lt;/p>
+            </code>
+          </pre>
+        </section>
+        <section>
+          <h2>Lists</h2>
+          <h3>Unordered List</h3>
+          <p>
+            An unordered list starts with the &lt;ul> tag. Each list item starts
+            with the &lt;li> tag.
+            <br />
+            <br />
+            The list items will be marked with bullets (small black circles) by
+            default:
+          </p>
+          <pre>
+            <code>
+    &lt;ul>
+      &lt;li>Coffee&lt;/li>
+      &lt;li>Tea&lt;/li>
+      &lt;li>Milk&lt;/li>
+    &lt;/ul>
+            </code>
+          </pre>
+          <h3>Ordered List</h3>
+          <p>
+            An ordered list starts with the &lt;ol> tag. Each list item starts
+            with the &lt;li> tag. <br />
+            <br />
+            The list items will be marked with numbers by default:
+          </p>
+          <pre>
+              <code>
+    &lt;ol>
+      &lt;li>Coffee&lt;/li>
+      &lt;li>Tea&lt;/li>
+      &lt;li>Milk&lt;/li>
+    &lt;/ol>
+              </code>
+            </pre>
+          <h3>Nested List</h3>
+          <p>A nested list displays a list inside another list</p>
+          <pre>
+              <code>
+    &lt;ul>
+      &lt;li>Oranges&lt;/li>
+      &lt;li>Drinks
+        &lt;ol>
+          &lt;li>Coffee&lt;/li>
+          &lt;li>Tea&lt;/li>
+          &lt;li>Milk&lt;/li>
+        &lt;/ol>
+      &lt;/li>
+      &lt;li>Apples&lt;/li>
+    &lt;/ul>
+              </code>
+            </pre>
+        </section>
+        <section>
+          <h2>Links</h2>
+          <p>
+            Links are found in nearly all web pages. Links allow users to click
+            their way from page to page.
+            <br />When you move the mouse over a link, the mouse arrow will turn
+            into a little hand. <br />
+            <br />
+            A link does not have to be text. A link can be an image or any other
+            HTML element!
+            <br />
+            <br />
+            The most important attribute of the &lt;a> element is the href
+            attribute, which indicates the link's destination.
+          </p>
+
+          <pre>
+            <code>
+    &lt;!-- External link -->
+    &lt;a href="http://google.com">Click For Google&lt;/a>
+    
+    &lt;!-- External link that opens in a new tab -->
+    &lt;a href="http://google.com" target="_blank">Click For Google&lt;/a>
+    
+    &lt;!-- Internal Link -->
+    &lt;a href="/04_typography.html">Typography&lt;/a>
+    
+    &lt;!-- Local image -->
+    &lt;img src="/images/sample.jpg" alt="My Image" width="200" />
+    
+    &lt;!-- Remote image -->
+    &lt;img
+      src="https://source.unsplash.com/200x200/?building"
+      alt="My Image 2"
+    />
+
+            </code>
+          </pre>
+        </section>
 
         <a class="button" href="./css.html">Next</a>
       </div>
