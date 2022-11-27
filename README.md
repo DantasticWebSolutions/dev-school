@@ -64,7 +64,7 @@ This section displays a list any major frameworks/libraries used to bootstrap th
 - [x] CSS - Section 2
 - [x] Finance Website - Section 3
 - [x] Test - Section 4
-- [x] Documentation - Section 5
+- [ ] Documentation - Section 5
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
